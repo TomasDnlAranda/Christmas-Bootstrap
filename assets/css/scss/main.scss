@@ -1,0 +1,38 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.td-none {
+    text-decoration: none;
+}
+
+.text-blue{
+    color: rgb(2, 105, 173);
+}
+
+.bg-blue {
+    background: rgb(2, 105, 173);
+}
+
+.border-bottom-blue {
+    border-bottom: .50rem solid rgb(2, 105, 173);
+}
+
+.text-gray {
+    color: rgb(102, 102, 102);
+}
+
+.w-min-content {
+    width: min-content;
+}
+
+.bg-gray {
+    background: rgba(37, 37, 37, 0.308);
+}
+
+.border-gray {
+    border: none;
+    border-bottom: .15rem solid rgba(37, 37, 37, 0.503);;
+}
+
+.fs-7 {
+    font-size: .25rem !important;
+}
