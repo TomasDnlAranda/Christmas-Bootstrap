@@ -11287,6 +11287,7 @@ textarea.form-control-lg {
 
 .text-blue {
   color: #0269ad;
+  transition: all 0.5s;
 }
 
 .bg-blue {
