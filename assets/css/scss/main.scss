@@ -1,9 +1,20 @@
+// import npm bootstrap
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
 
+
+// style text decoration none
 .td-none {
     text-decoration: none;
 }
 
+
+// style width min content
+.w-min-content {
+    width: min-content;
+}
+
+
+// style color lightblue
 .text-blue{
     color: rgb(2, 105, 173);
     transition: all .5s;
@@ -17,12 +28,10 @@
     border-bottom: .50rem solid rgb(2, 105, 173);
 }
 
+
+// style color gray
 .text-gray {
     color: rgb(102, 102, 102);
-}
-
-.w-min-content {
-    width: min-content;
 }
 
 .bg-gray {
@@ -34,6 +43,11 @@
     border-bottom: .15rem solid rgba(37, 37, 37, 0.503);;
 }
 
+.scroll-behivor {
+    padding-top: 5rem;
+}
+
+// scroll style
 body::-webkit-scrollbar {
     width: 12px;
   }
@@ -48,4 +62,12 @@ body::-webkit-scrollbar {
     border: 3px solid  rgb(2, 105, 173);
   }
 
-  
+// hover navbar
+.navbar-hover {
+    color: #fff;
+    transition: all .5s;
+}
+
+.navbar-hover:hover {
+    color: rgb(2, 105, 173);
+}

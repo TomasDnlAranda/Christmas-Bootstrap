@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 
-<body class="bg-black">
+<body class="bg-black" style="scroll-behavior: smooth;">
 
 
 
@@ -28,13 +28,12 @@
         <div class="row">
             <a href="#" class="col-6 d-flex justify-content-center fs-5 td-none p-2 text-white / col-sm-4 / col-lg-2">Christmas</a>
             <div class="d-none col-8 justify-content-center align-items-center / d-lg-flex">
-                <a href="#" class="td-none mx-2 fs-5 text-white / mx-lg-3">Home</a>
-                <a href="#" class="td-none mx-2 fs-5 text-white / mx-lg-3">About</a>
-                <a href="#" class="td-none mx-2 fs-5 text-white / mx-lg-3">Products</a>
-                <a href="#" class="td-none mx-2 fs-5 text-white / mx-lg-3">Services</a>
-                <a href="#" class="td-none mx-2 fs-5 text-white / mx-lg-3">Gallery</a>
-                <a href="#" class="td-none mx-2 fs-5 text-white / mx-lg-3">Contact</a>
-                <a href="#" class="td-none mx-2 fs-5 text-white / mx-lg-3">Blogs</a>
+                <a href="#area-section-1" class="td-none mx-2 fs-5 navbar-hover / mx-lg-3">Home</a>
+                <a href="#area-section-2" class="td-none mx-2 fs-5 navbar-hover / mx-lg-3">Products</a>
+                <a href="#area-section-3" class="td-none mx-2 fs-5 navbar-hover / mx-lg-3">Services</a>
+                <a href="#area-section-4" class="td-none mx-2 fs-5 navbar-hover / mx-lg-3">Gallery</a>
+                <a href="#area-section-5" class="td-none mx-2 fs-5 navbar-hover / mx-lg-3">Contact</a>
+                <a href="#area-section-6" class="td-none mx-2 fs-5 navbar-hover / mx-lg-3">Blogs</a>
             </div>
             <nav class="col-6 d-flex justify-content-center align-items-center p-2 / col-sm-8 justify-content-sm-end / col-lg-2">
                 <i class="bi bi-three-dots / mx-1 bg-white px-2 py-1 / d-lg-none"></i>
@@ -52,8 +51,8 @@
 
 
         <!--========================= Start Section #1 Area =========================-->
-        <section class="container-fluid mt-5 pt-5">
-            <div class="row">
+        <section class="container-fluid" id="area-section-1">
+            <div class="row scroll-behivor">
                 <div class="col-10 mx-auto / col-sm-10 / col-md-8 / col-lg-6" data-aos="fade-right" data-aos-delay="150">
                     <img src="./images/about-img.png" alt="img-section-1" class="img-fluid / px-sm-5">
                 </div>
@@ -72,7 +71,7 @@
         <!--========================= Start Section #2 Area =========================-->
         <section class="container-fluid mt-5">
             <div class="d-flex flex-column justify-content-center row / flex-md-row">
-                <h2 class="d-flex justify-content-center fs-1 mb-3"><span class="text-white">OUR <span class="text-blue">PRODUCTS</span></span></h2>
+                <h2 class="d-flex justify-content-center fs-1 mb-3 pt-6 scroll-behivor" id="area-section-2"><span class="text-white">OUR <span class="text-blue">PRODUCTS</span></span></h2>
                 <div class="card d-flex bg-black col-12 mx-auto / col-sm-10 / col-md-6 mx-md-0 / col-lg-4" data-aos="fade-up" data-aos-delay="150">
                     <div class="mx-5">
                         <img src="./images/product-1.png" alt="img-section-2" class="img-fluid / px-sm-5">
@@ -164,9 +163,9 @@
 
 
         <!--=========================  Start Section #3 Area  =========================-->
-        <section class="container-fluid mt-5">
+        <section class="container-fluid mt-5" id="area-section-3">
             <div class="d-flex flex-column justify-content-center row / flex-md-row justify-content-md-evenly">
-                <h2 class="d-flex justify-content-center fs-1 mb-3"><span class="text-white">OUR <span class="text-blue">PRODUCTS</span></span></h2>
+                <h2 class="d-flex justify-content-center fs-1 mb-3 scroll-behivor" id="area-section-3"><span class="text-white">OUR <span class="text-blue">PRODUCTS</span></span></h2>
                 <div class="card bg-black d-flex flex-column my-3 py-3 col-12 mx-auto cards / col-sm-10 / col-md-5 mx-md-0 / col-lg-4" data-aos="fade-up" data-aos-delay="150">
                     <i class="fas fa-candy-cane / justify-content-center d-flex fs-1 text-white bg-blue rounded-circle w-min-content mx-auto p-3"></i>
                     <p class="d-flex justify-content-center text-white mt-3 fs-4">Christmas Tree</p>
@@ -205,7 +204,7 @@
 
         <!--========================= Start Section #4 Area =========================-->
         <section class="container-fluid mt-5">
-            <h2 class="d-flex justify-content-center fs-1 mb-5"><span class="text-white">OUR <span class="text-blue">GALLERY</span></span></h2>
+            <h2 class="d-flex justify-content-center fs-1 mb-5 scroll-behivor" id="area-section-4"><span class="text-white">OUR <span class="text-blue">GALLERY</span></span></h2>
             <div class="row">
                 <div class="col-lg-4 col-md-4 mb-2 mb-lg-0">
                   <img src="./images/g-img-1.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="img-section-gallery" data-aos="zoom-in" data-aos-delay="150">
@@ -228,7 +227,7 @@
         <!--========================= Start Section #5 Area =========================-->
         <section class="container-fluid mt-5 py-5">
             <div class="d-flex flex-column justify-content-center row">
-                <h2 class="d-flex justify-content-center fs-1 mb-3"><span class="text-white">CONTACT <span class="text-blue">US</span></span></h2>
+                <h2 class="d-flex justify-content-center fs-1 mb-3 scroll-behivor" id="area-section-5"><span class="text-white">CONTACT <span class="text-blue">US</span></span></h2>
                 <form class="d-flex flex-column col-12 mx-auto / col-sm-10 / col-md-6">
                     <div class="form-floating mb-5" data-aos="fade-up" data-aos-delay="150">
                         <input type="email" class="form-control bg-black text-white border-start-0 border-end-0 border-top-0 border-primary" id="floatingInput" placeholder="name@example.com">
@@ -257,7 +256,7 @@
         <!--========================= Start Section #6 Area =========================-->
         <section class="container-fluid mt-5 mb-2">
             <div class="d-flex flex-column justify-content-center row-cols-auto">
-                <h2 class="d-flex justify-content-center fs-1 mb-5"><span class="text-white">OUR DAILY <span class="text-blue">BLOGS</span></span></h2>
+                <h2 class="d-flex justify-content-center fs-1 mb-5 scroll-behivor" id="area-section-6"><span class="text-white">OUR DAILY <span class="text-blue">BLOGS</span></span></h2>
                 <div class="d-flex justify-content-center align-items-center flex-column / flex-lg-row justify-content-lg-evenly my-lg-5">
                     <div class="card bg-dark my-2 col-12 / col-sm-10 / col-md-7 / col-lg-3" data-aos="fade-up" data-aos-delay="150">
                         <img src="./images/blog-1.jpg" class="card-img-top hover-zoom" alt="img-section-6">

@@ -11285,6 +11285,12 @@ textarea.form-control-lg {
   text-decoration: none;
 }
 
+.w-min-content {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
 .text-blue {
   color: #0269ad;
   transition: all 0.5s;
@@ -11302,12 +11308,6 @@ textarea.form-control-lg {
   color: #666666;
 }
 
-.w-min-content {
-  width: -webkit-min-content;
-  width: -moz-min-content;
-  width: min-content;
-}
-
 .bg-gray {
   background: rgba(37, 37, 37, 0.308);
 }
@@ -11315,6 +11315,10 @@ textarea.form-control-lg {
 .border-gray {
   border: none;
   border-bottom: 0.15rem solid rgba(37, 37, 37, 0.503);
+}
+
+.scroll-behivor {
+  padding-top: 5rem;
 }
 
 body::-webkit-scrollbar {
@@ -11329,4 +11333,13 @@ body::-webkit-scrollbar-thumb {
   background-color: #0269ad;
   border-radius: 20px;
   border: 3px solid #0269ad;
+}
+
+.navbar-hover {
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.navbar-hover:hover {
+  color: #0269ad;
 }/*# sourceMappingURL=main.css.map */
