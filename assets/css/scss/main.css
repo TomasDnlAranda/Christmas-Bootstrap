@@ -6881,7 +6881,7 @@ textarea.form-control-lg {
 }
 
 .border-primary {
-  border-color:rgb(2, 105, 173) !important;
+  border-color: #0d6efd !important;
 }
 
 .border-secondary {
@@ -11291,6 +11291,10 @@ textarea.form-control-lg {
 
 .bg-blue {
   background: #0269ad;
+}
+
+.border-bottom-blue {
+  border-bottom: 0.5rem solid #0269ad;
 }
 
 .text-gray {
