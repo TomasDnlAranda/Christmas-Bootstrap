@@ -32,3 +32,17 @@
     border: none;
     border-bottom: .15rem solid rgba(37, 37, 37, 0.503);;
 }
+
+body::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #000;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(2, 105, 173);
+    border-radius: 20px; 
+    border: 3px solid  rgb(2, 105, 173);
+  }

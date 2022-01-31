@@ -11314,4 +11314,18 @@ textarea.form-control-lg {
 .border-gray {
   border: none;
   border-bottom: 0.15rem solid rgba(37, 37, 37, 0.503);
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #000;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #0269ad;
+  border-radius: 20px;
+  border: 3px solid #0269ad;
 }/*# sourceMappingURL=main.css.map */

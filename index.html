@@ -11,6 +11,7 @@
 
     <!-- Bootstrap Icons File -->
     <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body class="bg-black">
@@ -18,11 +19,20 @@
 
 
     <!--========================= Start Header Area =========================-->
-    <header class="container-fluid bg-black fixed-top">
+    <header class="container-fluid bg-black fixed-top border-gray py-2">
         <div class="row">
-            <a href="#" class="col-6 d-flex justify-content-center fs-5 td-none p-2 text-white / col-sm-4">Christmas</a>
-            <nav class="col-6 d-flex justify-content-center align-items-center p-2 / col-sm-8 justify-content-sm-end">
-                <i class="bi bi-three-dots / mx-1 bg-white px-2 py-1"></i>
+            <a href="#" class="col-6 d-flex justify-content-center fs-5 td-none p-2 text-white / col-sm-4 / col-lg-2">Christmas</a>
+            <div class="d-none col-8 justify-content-center align-items-center / d-lg-flex">
+                <a href="#" class="td-none mx-2 text-white fs-5">home</a>
+                <a href="#" class="td-none mx-2 text-white fs-5">about</a>
+                <a href="#" class="td-none mx-2 text-white fs-5">products</a>
+                <a href="#" class="td-none mx-2 text-white fs-5">services</a>
+                <a href="#" class="td-none mx-2 text-white fs-5">gallery</a>
+                <a href="#" class="td-none mx-2 text-white fs-5">contact</a>
+                <a href="#" class="td-none mx-2 text-white fs-5">blogs</a>
+            </div>
+            <nav class="col-6 d-flex justify-content-center align-items-center p-2 / col-sm-8 justify-content-sm-end / col-lg-2">
+                <i class="bi bi-three-dots / mx-1 bg-white px-2 py-1 / d-lg-none"></i>
                 <i class="bi bi-search / mx-1 bg-white px-2 py-1"></i>
                 <i class="bi bi-suit-heart-fill / mx-1 bg-white px-2 py-1"></i>
                 <i class="bi bi-cart-fill / mx-1 bg-white px-2 py-1"></i>
@@ -37,15 +47,15 @@
 
 
         <!--========================= Start Section #1 Area =========================-->
-        <section class="container-fluid mt-5">
+        <section class="container-fluid mt-5 pt-5">
             <div class="row">
-                <div class="col-10 mx-auto / col-sm-10 / col-md-8">
+                <div class="col-10 mx-auto / col-sm-10 / col-md-8 / col-lg-6" data-aos="fade-right" data-aos-delay="150">
                     <img src="./images/about-img.png" alt="img-section-1" class="img-fluid / px-sm-5">
                 </div>
-                <div class="px-2 pt-3">
-                    <h4 class="text-blue my-2 w-100 h-auto">why choose us?</h4>
-                    <h2 class="text-white my-2">Celebrate Your Christmas With Us</h2>
-                    <p class="fs-6 my-2 text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo modi ullam temporibus quos consectetur magni ut cumque laudantium, sed, aliquam quo tempore ducimus molestias. Modi quae animi tenetur numquam repellendus.</p>
+                <div class="px-2 pt-3 justify-content-center flex-column / col-lg-6 d-lg-flex" data-aos="fade-left" data-aos-delay="350">
+                    <h4 class="text-blue py-2 w-100 h-auto">why choose us?</h4>
+                    <h2 class="text-white py-2">Celebrate Your Christmas With Us</h2>
+                    <p class="fs-6 py-2 text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo modi ullam temporibus quos consectetur magni ut cumque laudantium, sed, aliquam quo tempore ducimus molestias. Modi quae animi tenetur numquam repellendus.</p>
                     <button class="w-50 fs-6 my-2 bg-blue text-white border-0 py-2">Read More</button>
                 </div>
             </div>
@@ -58,7 +68,7 @@
         <section class="container-fluid mt-5">
             <div class="d-flex flex-column justify-content-center row / flex-md-row">
                 <h2 class="d-flex justify-content-center fs-1 mb-3"><span class="text-white">OUR <span class="text-blue">PRODUCTS</span></span></h2>
-                <div class="card d-flex bg-black col-12 mx-auto / col-sm-10 / col-md-6 mx-md-0">
+                <div class="card d-flex bg-black col-12 mx-auto / col-sm-10 / col-md-6 mx-md-0 / col-lg-4" data-aos="fade-up" data-aos-delay="150">
                     <div class="mx-5">
                         <img src="./images/product-1.png" alt="img-section-2" class="img-fluid / px-sm-5">
                     </div>
@@ -72,7 +82,7 @@
                     <p class="d-flex justify-content-center text-white fs-4 my-1">Christmas Decors</p>
                     <p class="d-flex justify-content-center"><span class="text-white fs-5">$29.99 <span class="fs-6 text-gray text-decoration-line-through"">$39.99</span></span></p>
                 </div>
-                <div class="card d-flex bg-black col-12 mx-auto / col-sm-10 / col-md-6 mx-md-0">
+                <div class="card d-flex bg-black col-12 mx-auto / col-sm-10 / col-md-6 mx-md-0 / col-lg-4"  data-aos="fade-up" data-aos-delay="350">
                     <div class="mx-5">
                         <img src="./images/product-6.png" alt="img-section-2" class="img-fluid / px-sm-5">
                     </div>
@@ -86,7 +96,7 @@
                     <p class="d-flex justify-content-center text-white fs-4 my-1">Christmas Decors</p>
                     <p class="d-flex justify-content-center"><span class="text-white fs-5">$29.99 <span class="fs-6 text-gray text-decoration-line-through"">$39.99</span></span></p>
                 </div>
-                <div class="card d-flex bg-black col-12 mx-auto / col-sm-10 / col-md-6 mx-md-0">
+                <div class="card d-flex bg-black col-12 mx-auto / col-sm-10 / col-md-6 mx-md-0 / col-lg-4"  data-aos="fade-up" data-aos-delay="450">
                     <div class="mx-5">
                         <img src="./images/product-2.png" alt="img-section-2" class="img-fluid / px-sm-5">
                     </div>
@@ -100,7 +110,7 @@
                     <p class="d-flex justify-content-center text-white fs-4 my-1">Christmas Decors</p>
                     <p class="d-flex justify-content-center"><span class="text-white fs-5">$29.99 <span class="fs-6 text-gray text-decoration-line-through"">$39.99</span></span></p>
                 </div>
-                <div class="card d-flex bg-black col-12 mx-auto / col-sm-10 / col-md-6 mx-md-0">
+                <div class="card d-flex bg-black col-12 mx-auto / col-sm-10 / col-md-6 mx-md-0 / col-lg-4"  data-aos="fade-up" data-aos-delay="650">
                     <div class="mx-5">
                         <img src="./images/product-3.png" alt="img-section-2" class="img-fluid / px-sm-5">
                     </div>
@@ -114,7 +124,7 @@
                     <p class="d-flex justify-content-center text-white fs-4 my-1">Christmas Decors</p>
                     <p class="d-flex justify-content-center"><span class="text-white fs-5">$29.99 <span class="fs-6 text-gray text-decoration-line-through"">$39.99</span></span></p>
                 </div>
-                <div class="card d-flex bg-black col-12 mx-auto / col-sm-10 / col-md-6 mx-md-0">
+                <div class="card d-flex bg-black col-12 mx-auto / col-sm-10 / col-md-6 mx-md-0 / col-lg-4"  data-aos="fade-up" data-aos-delay="750">
                     <div class="mx-5">
                         <img src="./images/product-4.png" alt="img-section-2" class="img-fluid / px-sm-5">
                     </div>
@@ -128,7 +138,7 @@
                     <p class="d-flex justify-content-center text-white fs-4 my-1">Christmas Decors</p>
                     <p class="d-flex justify-content-center"><span class="text-white fs-5">$29.99 <span class="fs-6 text-gray text-decoration-line-through"">$39.99</span></span></p>
                 </div>
-                <div class="card d-flex bg-black col-12 mx-auto / col-sm-10 / col-md-6 mx-md-0">
+                <div class="card d-flex bg-black col-12 mx-auto / col-sm-10 / col-md-6 mx-md-0 / col-lg-4"  data-aos="fade-up" data-aos-delay="900">
                     <div class="mx-5">
                         <img src="./images/product-5.png" alt="img-section-2" class="img-fluid / px-sm-5">
                     </div>
@@ -152,32 +162,32 @@
         <section class="container-fluid mt-5">
             <div class="d-flex flex-column justify-content-center row / flex-md-row justify-content-md-evenly">
                 <h2 class="d-flex justify-content-center fs-1 mb-3"><span class="text-white">OUR <span class="text-blue">PRODUCTS</span></span></h2>
-                <div class="card bg-black d-flex flex-column my-3 py-3 col-12 mx-auto / col-sm-10 / col-md-5 mx-md-0">
+                <div class="card bg-black d-flex flex-column my-3 py-3 col-12 mx-auto / col-sm-10 / col-md-5 mx-md-0 / col-lg-4" data-aos="fade-up" data-aos-delay="150">
                     <i class="bi bi-asterisk / justify-content-center d-flex fs-1 text-white bg-blue rounded-circle w-min-content mx-auto p-3"></i>
                     <p class="d-flex justify-content-center text-white mt-3 fs-4">Christmas Tree</p>
                     <p class="text-gray fs-6 w-75 mx-auto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptatum error reprehenderit ap</p>
                 </div>
-                <div class="card bg-gray d-flex flex-column my-3 py-3 col-12 mx-auto / col-sm-10 / col-md-5 mx-md-0">
+                <div class="card bg-gray d-flex flex-column my-3 py-3 col-12 mx-auto / col-sm-10 / col-md-5 mx-md-0 / col-lg-4" data-aos="fade-up" data-aos-delay="350">
                     <i class="bi bi-asterisk / justify-content-center d-flex fs-1 text-white bg-blue rounded-circle w-min-content mx-auto p-3"></i>
                     <p class="d-flex justify-content-center text-white mt-3 fs-4">Christmas Tree</p>
                     <p class="text-gray fs-6 w-75 mx-auto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptatum error reprehenderit ap</p>
                 </div>
-                <div class="card bg-black d-flex flex-column my-3 py-3 col-12 mx-auto / col-sm-10 / col-md-5 mx-md-0">
+                <div class="card bg-black d-flex flex-column my-3 py-3 col-12 mx-auto / col-sm-10 / col-md-5 mx-md-0 / col-lg-4" data-aos="fade-up" data-aos-delay="450">
                     <i class="bi bi-asterisk / justify-content-center d-flex fs-1 text-white bg-blue rounded-circle w-min-content mx-auto p-3"></i>
                     <p class="d-flex justify-content-center text-white mt-3 fs-4">Christmas Tree</p>
                     <p class="text-gray fs-6 w-75 mx-auto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptatum error reprehenderit ap</p>
                 </div>
-                <div class="card bg-gray d-flex flex-column my-3 py-3 col-12 mx-auto / col-sm-10 / col-md-5 mx-md-0">
+                <div class="card bg-gray d-flex flex-column my-3 py-3 col-12 mx-auto / col-sm-10 / col-md-5 mx-md-0 / col-lg-4" data-aos="fade-up" data-aos-delay="650">
                     <i class="bi bi-asterisk / justify-content-center d-flex fs-1 text-white bg-blue rounded-circle w-min-content mx-auto p-3"></i>
                     <p class="d-flex justify-content-center text-white mt-3 fs-4">Christmas Tree</p>
                     <p class="text-gray fs-6 w-75 mx-auto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptatum error reprehenderit ap</p>
                 </div>
-                <div class="card bg-black d-flex flex-column my-3 py-3 col-12 mx-auto / col-sm-10 / col-md-5 mx-md-0">
+                <div class="card bg-black d-flex flex-column my-3 py-3 col-12 mx-auto / col-sm-10 / col-md-5 mx-md-0 / col-lg-4" data-aos="fade-up" data-aos-delay="750">
                     <i class="bi bi-asterisk / justify-content-center d-flex fs-1 text-white bg-blue rounded-circle w-min-content mx-auto p-3"></i>
                     <p class="d-flex justify-content-center text-white mt-3 fs-4">Christmas Tree</p>
                     <p class="text-gray fs-6 w-75 mx-auto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptatum error reprehenderit ap</p>
                 </div>
-                <div class="card bg-gray d-flex flex-column my-3 py-3 col-12 mx-auto / col-sm-10 / col-md-5 mx-md-0">
+                <div class="card bg-gray d-flex flex-column my-3 py-3 col-12 mx-auto / col-sm-10 / col-md-5 mx-md-0 / col-lg-4" data-aos="fade-up" data-aos-delay="900">
                     <i class="bi bi-asterisk / justify-content-center d-flex fs-1 text-white bg-blue rounded-circle w-min-content mx-auto p-3"></i>
                     <p class="d-flex justify-content-center text-white mt-3 fs-4">Christmas Tree</p>
                     <p class="text-gray fs-6 w-75 mx-auto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptatum error reprehenderit ap</p>
@@ -193,16 +203,16 @@
             <h2 class="d-flex justify-content-center fs-1 mb-5"><span class="text-white">OUR <span class="text-blue">GALLERY</span></span></h2>
             <div class="row">
                 <div class="col-lg-4 col-md-4 mb-2 mb-lg-0">
-                  <img src="./images/g-img-1.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="img-section-gallery">
-                  <img src="./images/g-img-2.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="img-section-gallery">
+                  <img src="./images/g-img-1.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="img-section-gallery" data-aos="zoom-in" data-aos-delay="150">
+                  <img src="./images/g-img-2.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="img-section-gallery" data-aos="zoom-in" data-aos-delay="300">
                 </div>
                 <div class="col-lg-4 col-md-4 mb-2 mb-lg-0">
-                  <img src="./images/g-img-4.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="img-section-gallery">
-                  <img src="./images/g-img-3.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="img-section-gallery">
+                  <img src="./images/g-img-4.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="img-section-gallery" data-aos="zoom-in" data-aos-delay="450">
+                  <img src="./images/g-img-3.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="img-section-gallery" data-aos="zoom-in" data-aos-delay="600">
                 </div>
                 <div class="col-lg-4 col-md-4 mb-2 mb-lg-0">
-                  <img src="./images/g-img-5.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="img-section-gallery">
-                  <img src="./images/g-img-8.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="img-section-gallery">
+                  <img src="./images/g-img-5.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="img-section-gallery" data-aos="zoom-in" data-aos-delay="750">
+                  <img src="./images/g-img-8.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="img-section-gallery" data-aos="zoom-in" data-aos-delay="900">
                 </div>
               </div>
         </section>
@@ -215,23 +225,23 @@
             <div class="d-flex flex-column justify-content-center row">
                 <h2 class="d-flex justify-content-center fs-1 mb-3"><span class="text-white">CONTACT <span class="text-blue">US</span></span></h2>
                 <form class="d-flex flex-column col-12 mx-auto / col-sm-10 / col-md-6">
-                    <div class="form-floating mb-4">
+                    <div class="form-floating mb-4" data-aos="fade-up" data-aos-delay="150">
                         <input type="email" class="form-control bg-black text-white border-gray" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">Email address</label>
+                        <label for="floatingInput">full name</label>
                     </div>
-                    <div class="form-floating mb-4">
+                    <div class="form-floating mb-4" data-aos="fade-up" data-aos-delay="350">
                         <input type="email" class="form-control bg-black text-white border-gray" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">Email address</label>
+                        <label for="floatingInput">email</label>
                     </div>
-                    <div class="form-floating mb-4">
+                    <div class="form-floating mb-4" data-aos="fade-up" data-aos-delay="450">
                         <input type="email" class="form-control bg-black text-white border-gray" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput">Email address</label>
+                        <label for="floatingInput">phone</label>
                     </div>
-                    <div class="form-floating mb-4">
+                    <div class="form-floating mb-4" data-aos="fade-up" data-aos-delay="550">
                         <textarea class="form-control bg-black text-white border-gray" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
                         <label for="floatingTextarea2">Comments</label>
                       </div>
-                    <button class="w-50 fs-6 my-2 bg-blue text-white border-0 mx-auto text-white p-2">Send Now</button>
+                    <button class="w-50 fs-6 my-2 bg-blue text-white border-0 mx-auto text-white p-2" data-aos="fade-up" data-aos-delay="550">Send Now</button>
                 </form>
             </div>
         </section>
@@ -241,10 +251,10 @@
 
         <!--========================= Start Section #6 Area =========================-->
         <section class="container-fluid mt-5 mb-2">
-            <div class="d-flex flex-column justify-content-center row">
+            <div class="d-flex flex-column justify-content-center row-cols-auto">
                 <h2 class="d-flex justify-content-center fs-1 mb-3"><span class="text-white">OUR DAILY <span class="text-blue">BLOGS</span></span></h2>
-                <div class="d-flex justify-content-center align-items-center flex-column col-12">
-                    <div class="card bg-dark my-2 col-12 / col-sm-10 / col-md-7">
+                <div class="d-flex justify-content-center align-items-center flex-column / flex-lg-row justify-content-lg-evenly">
+                    <div class="card bg-dark my-2 col-12 / col-sm-10 / col-md-7 / col-lg-3" data-aos="fade-up" data-aos-delay="150">
                         <img src="./images/blog-1.jpg" class="card-img-top" alt="img-section-6">
                         <div class="card-body">
                           <h5 class="card-title text-white">Blog Title Goes Here</h5>
@@ -262,7 +272,7 @@
                           </div>
                         </div>
                     </div>
-                    <div class="card bg-dark my-2 col-12 / col-sm-10 / col-md-7">
+                    <div class="card bg-dark my-2 col-12 / col-sm-10 / col-md-7 / col-lg-3" data-aos="fade-up" data-aos-delay="300">
                         <img src="./images/blog-2.jpg" class="card-img-top" alt="img-section-6">
                         <div class="card-body">
                           <h5 class="card-title text-white">Blog Title Goes Here</h5>
@@ -280,7 +290,7 @@
                         </div>
                         </div>
                     </div>
-                    <div class="card bg-dark my-2 col-12 / col-sm-10 / col-md-7">
+                    <div class="card bg-dark my-2 col-12 / col-sm-10 / col-md-7 / col-lg-3" data-aos="fade-up" data-aos-delay="450">
                         <img src="./images/blog-3.jpg" class="card-img-top" alt="img-section-6">
                         <div class="card-body">
                           <h5 class="card-title text-white">Blog Title Goes Here</h5>
@@ -311,7 +321,7 @@
 
     <!--========================= Start Footer Area =========================-->
     <footer class="bg-black container-fluid mt-5 d-flex flex-column / row-md flex-md-row flex-md-wrap justify-content-md-center">
-        <div class="my-2 / col-md-3">
+        <div class="my-2 / col-md-3" data-aos="fade-up" data-aos-delay="150">
             <h4 class="text-white">Quick Links</h4>
             <a href="#" class="d-flex td-none">
                 <i class="bi bi-chevron-right / text-blue"></i>
@@ -342,7 +352,7 @@
                 <p class="ms-1 text-gray">blogs</p>
             </a>
         </div>
-        <div class="my-2 / col-md-3">
+        <div class="my-2 / col-md-3" data-aos="fade-up" data-aos-delay="350">
             <h4 class="text-white">Extra Links</h4>
             <a href="#" class="d-flex td-none">
                 <i class="bi bi-chevron-right / text-blue"></i>
@@ -373,7 +383,7 @@
                 <p class="ms-1 text-gray">blogs</p>
             </a>
         </div>
-        <div class="my-2 / col-md-3">
+        <div class="my-2 / col-md-3" data-aos="fade-up" data-aos-delay="450">
             <h4 class="text-white">Concact Info</h4>
             <a href="#" class="d-flex td-none">
                 <i class="bi bi-telephone-fill / text-blue"></i>
@@ -392,7 +402,7 @@
                 <p class="ms-1 text-gray">buenos aires, ar</p>
             </a>
         </div>
-        <div class="col-md-3 my-2">
+        <div class="col-md-3 my-2" data-aos="fade-up" data-aos-delay="600">
             <h4 class="text-white">Newsletter</h4>
             <div class="my-3 col-12">
                 <input type="email" class="form-control / bg-black border-blue" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="enter your email">
@@ -412,6 +422,13 @@
     <!--========================= End Footer Area =========================-->
 
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="./assets/js/script.js"></script>
+<script>
+
+    AOS.init({
+        duration: 600,
+    });
+</script>
 </body>
 </html>
