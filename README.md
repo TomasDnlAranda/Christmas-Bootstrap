@@ -1,6 +1,6 @@
 # Christmas-Bootstrap
 
-**It is a Christmas interface in order to transmit emotions, achieving different effects and very exact content.**
+**It is a Christmas interface in order to transmit emotions, achieving different effects and very exact content, demonstrating my skills with Bootstrap 5 and components according to the design.**
 
 _his interface was achieved by:_
 
@@ -8,6 +8,8 @@ _his interface was achieved by:_
 - CSS
 - JS
 - FLEXBOX
+- NODE.JS
+- NPM
 - GRID
 - BOOTSTRAP 5
 - LIBRERY JS
