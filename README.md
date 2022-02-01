@@ -17,4 +17,4 @@ _his interface was achieved by:_
 
 _to be able to visualize the project in a better way:_
 
-https://tomasdnlaranda.github.io/Starbucks-Coffee/
+https://tomasdnlaranda.github.io/Christmas-Bootstrap/
