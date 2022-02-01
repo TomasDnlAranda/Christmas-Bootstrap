@@ -9,9 +9,9 @@ _his interface was achieved by:_
 - JS
 - SCSS
 - FLEXBOX
+- GRID
 - NODE.JS
 - NPM
-- GRID
 - BOOTSTRAP 5
 - LIBRERY JS
 - RESPONSIVE DESIGN 100%
