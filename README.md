@@ -7,6 +7,7 @@ _his interface was achieved by:_
 - HTML
 - CSS
 - JS
+- SCSS
 - FLEXBOX
 - NODE.JS
 - NPM
